@@ -3,7 +3,7 @@
 # the second form should post to localhost:4567/subtract with the same args
 # the page that they go to should display the result, and have a link to get back to calculator
 
-require 'webrick'
+require 'puma'
 require 'sinatra'
 
 get '/calculator' do
